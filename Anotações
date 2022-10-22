@@ -1,1 +1,36 @@
-# Notas
+# Notes
+
+## Operators
+
+###  increments
+
+number ++ = number +1
+
+number -- = number -1
+
+### 	boolean 
+
+​	variavel = (false or true)
+
+### 		Ternary
+
+​		string variavel = a==b ? "true" : "false"
+
+​		or
+
+​		int variavel = a==b ? 1 : 0
+
+			### 			Relational
+
+​			== equal
+
+​			!+ diferent
+
+​			>  bigger
+
+​			>= bigger or equal
+
+​			< smaller
+
+​			<= smaller or equal
+
