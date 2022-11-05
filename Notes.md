@@ -225,13 +225,146 @@ javadoc -encoding UTF-8 -docencoding ISO-8859-1 -d ../docs src/*.java
 
 
 
+## Terminal and arguments
 
 
 
+public class minhaClasse {
+
+  public static void main(String[] args){
+
+​    System.out.println("Oi, fui executado pelo terminal");
 
 
 
+​      String nome = args[0];
 
+​      String sobrenome = args [1];
+
+​      int idade = Integer.valueOf(args[2]);
+
+​      double altura = Double.valueOf(args[3]);
+
+
+
+​        System.out.println("Ola, me chamo " + nome + " " + sobrenome);
+
+​        System.out.println("tenho " + idade + "anos");
+
+​        System.out.println("Minha altura  " + altura + "cm ");
+
+  } 
+
+}
+
+____________________________________________________________________________________________________________________________________________________________________________________________
+
+public class AboutMe {
+
+  public static void main(String[] args){
+
+
+
+​    Scanner scanner = new Scanner(System.in).uselocale(Locale.US);
+
+​    
+
+​    System.out.println("Digite seu nome");
+
+​    String nome = scanner.next();
+
+
+
+​    System.out.println("Digite seu sobrenome");
+
+​    String sobrenome = scanner.next();
+
+
+
+​    System.out.println("Digite sua idade");
+
+​    int idade = scanner.nextInt();
+
+
+
+​    System.out.println("Digite sua altura");
+
+​    double altura = scanner.nextDouble();
+
+
+
+​      System.out.println("Ola, me chamo " + nome + " " + sobrenome);
+
+​      System.out.println("tenho " + idade + "anos");
+
+​      System.out.println("Minha altura  " + altura + "cm ");
+
+  } 
+
+}
+
+
+
+## Relational operators
+
+we have two types of operators:
+
+- similarity: same or different (==;!=)
+- size: bigger, bigger or equal, little, little or equal.(> and >=; < and <=)
+
+
+
+## Logical operators
+
+
+
+### Conjunction &&
+
+just true when both of operands are true
+
+## Disjunction ||
+
+just false when both operands are false
+
+
+
+## Exclusive disjunction ^
+
+Just true when both operands are opposites
+
+## Negation !
+
+Invert the operation 
+
+
+
+## Flux control
+
+- Decision: if, if-else,if-else-if, switch and ternary operator
+- repetition: for, while, do while
+- interruption: break, continue, return
+
+
+
+## Repetition structures and arrays
+
+
+
+[For consult](github.com/cami-la/loops-e-arrays)
+
+### Array
+
+type[] name = {position1, position2, position3 ...}
+
+or
+
+type[] name = [length];
+
+
+
+### Multidimensional arrays
+
+type[] [] name = [length] [length];
 
 
 
