@@ -1,4 +1,4 @@
-public class Usuario {
+public class UsuarioTv {
     public static void main(String[] args) throws Exception {
         
         SmartTv smartTv = new SmartTv();

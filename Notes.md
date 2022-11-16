@@ -2,7 +2,7 @@
 
 ## Types and variables
 
-|Type| |name ||atribuation|
+|Type| |name ||assignment|
 
 byte							-128							127			
 
@@ -368,15 +368,253 @@ type[] [] name = [length] [length];
 
 
 
+## Object orientation
+
+### Basic strutures
+
+#### Class: 
+
+works like a base for our objects. Has to be substantives concretes or abstracts. Examples: ball, car, sell, computer ...
+
+____
+
+class car{
+
+}
+
+#### Attribute
+
+Its the element responsible for define a data structure. Its usually a adjective. Examples: a color, a diameter, a distance, a value, a name...
+
+____
+
+class car {
+
+String color;
+
+String model;
+
+int fuelTankCapacity;
+
+}
+
+#### Method
+
+Its the element responsible for tell us what action our class can do for us. Its usually a verb. Examples: turn on, turn off, calculate, do a change...
+
+Especial methods:
+
+- constructor (must have the same name of the class). 
+
+  Initialize a object 
+
+  Example:
+
+  class car{
+
+  car(){
+
+  ...
+
+  ​	}
+
+  }
+
+- destructor
+
+  Assist the destruction of an object
+
+  Example:
+
+  class car {
+
+  void finalize(){
+
+  ...
+
+  ​	}
+
+  }
+
+#### Object and Message
+
+- creation of a object: Car car = new Car();
+
+
+-  its the communication for a action example:
+
+​		Car car = new Car();
+
+​		car.|method|;
+
+​		Car.|method|;
+
+____
+
+Exercise:  How much will cost to complete the tank of our car?
+
+Car {
+
+String color;
+
+String model;
+
+int fuelTankCapacity;
+
+Car(String color, String model, int fuelTankCapacity){
+
+​	this.cor = cor;
+
+​	this.model = model;
+
+​	this.fuelTankCapacity = fuelTankCapacity;
+
+}
+
+
+
+void setColor(String color){
+
+​	this.color = color;
+
+}
+
+String getcolor(){
+
+​	return color;
+
+}
+
+void setModel(String model){
+
+​	this.model = model;
+
+}
+
+String getModel(){
+
+​	return model;
+
+}
+
+void setTankCapacity(int fuelTankCapacity){
+
+​	this.fuelTankCapacity = fuelTankCapacity;
+
+}
+
+int getTankCapacity(){
+
+​	return fuelTankCapacity;
+
+}
+
+double tankValueTotal(double gasValue){
+
+​	return fuelTankCapacity * gasValue;
+
+}
+
+}
 
 
 
 
 
 
- 
 
 
 
 
 
+
+
+# Notes:
+
+- instancia x estatico: atributos e métodos
+
+- estado de um objeto
+
+- identidade de um objeto
+- representaçao numerica de um objeto
+- representaçao padrao de um objeto
+
+public class Car { 
+
+  Class Car(){
+
+​    
+
+​    void setColor(String color){
+
+​    
+
+​      this.color = color;
+
+​    }
+
+​    
+
+​    String getcolor(){
+
+​    
+
+​      return color;
+
+​    }
+
+​    
+
+​    void setModel(String model){
+
+​    
+
+​      this.model = model;
+
+​    }
+
+​    
+
+​    String getModel(){
+
+​    
+
+​      return model;
+
+​    }
+
+​    
+
+​    void setTankCapacity(int fuelTankCapacity){
+
+​    
+
+​      this.fuelTankCapacity = fuelTankCapacity;
+
+​    }
+
+​    
+
+​    int getTankCapacity(){
+
+​    
+
+​      return fuelTankCapacity;
+
+​    }
+
+​    
+
+​    double tankValueTotal(double gasValue){
+
+​    
+
+​      return fuelTankCapacity * gasValue;
+
+​    }
+
+​    
+
+  }
+
+}
