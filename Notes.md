@@ -370,6 +370,8 @@ type[] [] name = [length] [length];
 
 ## Object orientation
 
+[Exercises git hub](https://github.com/tlcdio)
+
 ### Basic strutures
 
 #### Class: 
@@ -441,7 +443,7 @@ Especial methods:
 - creation of a object: Car car = new Car();
 
 
--  its the communication for a action example:
+-  its the communication for a action. Example:
 
 ​		Car car = new Car();
 
@@ -449,75 +451,87 @@ Especial methods:
 
 ​		Car.|method|;
 
-____
 
-Exercise:  How much will cost to complete the tank of our car?
 
-Car {
+#### Heritages
 
-String color;
+Use the word "extends". Example: class A extends B{...}
 
-String model;
+A a = new B(); upcast
 
-int fuelTankCapacity;
+A a = (B) new new A(); downcast
 
-Car(String color, String model, int fuelTankCapacity){
+- types:
+  - simple: the method that inherits just one main class
+  - multiple: the method that inherits multiple main methods.
 
-​	this.cor = cor;
 
-​	this.model = model;
 
-​	this.fuelTankCapacity = fuelTankCapacity;
+#### Polymorphism and override
+
+- polymorphism: an action behaving differently.
+
+- override: an action can behave differently.
+
+
+
+#### Association
+
+- Structural 
+
+  - composition: "Com parte todo": when a data it's associated for a specific other one. Example:
+
+    class Person{
+
+    Address address;
+
+    }
+
+  
+
+  - aggregation: "sem parte todo": when a data isn't  associated for a specific other one. Example:
+
+    class Discipline{
+
+    Student student;
+
+    }
+
+- Behavioral
+
+  - Dependency: "depends on": when a data depends on the other one to exist. Example:
+
+    class Buy{
+
+    ...
+
+    finalize(Cupom cupom, ...) {
+
+    ​	...
+
+    ​	}
+
+    }
+
+
+
+#### Interface
+
+Its a tool created to run our methods. Example:
+
+class Calculator implements mathOperators{
+
+​	...
 
 }
 
+#### Packages
 
+Used to organize our projects.
 
-void setColor(String color){
+package ...;
 
-​	this.color = color;
-
-}
-
-String getcolor(){
-
-​	return color;
-
-}
-
-void setModel(String model){
-
-​	this.model = model;
-
-}
-
-String getModel(){
-
-​	return model;
-
-}
-
-void setTankCapacity(int fuelTankCapacity){
-
-​	this.fuelTankCapacity = fuelTankCapacity;
-
-}
-
-int getTankCapacity(){
-
-​	return fuelTankCapacity;
-
-}
-
-double tankValueTotal(double gasValue){
-
-​	return fuelTankCapacity * gasValue;
-
-}
-
-}
-
-
+import ...;
 
 
 
@@ -532,89 +546,15 @@ double tankValueTotal(double gasValue){
 # Notes:
 
 - instancia x estatico: atributos e métodos
-
 - estado de um objeto
-
 - identidade de um objeto
 - representaçao numerica de um objeto
 - representaçao padrao de um objeto
+- estudar polimorfismo e sobrescrita
+- tipos de classe: abstrata e concreta
+- metodos abstratos
+- caracteristicas das associaçoes
+- relaçoes entre classes e interface
+- refatoraçao de codigo
 
-public class Car { 
 
-  Class Car(){
-
-​    
-
-​    void setColor(String color){
-
-​    
-
-​      this.color = color;
-
-​    }
-
-​    
-
-​    String getcolor(){
-
-​    
-
-​      return color;
-
-​    }
-
-​    
-
-​    void setModel(String model){
-
-​    
-
-​      this.model = model;
-
-​    }
-
-​    
-
-​    String getModel(){
-
-​    
-
-​      return model;
-
-​    }
-
-​    
-
-​    void setTankCapacity(int fuelTankCapacity){
-
-​    
-
-​      this.fuelTankCapacity = fuelTankCapacity;
-
-​    }
-
-​    
-
-​    int getTankCapacity(){
-
-​    
-
-​      return fuelTankCapacity;
-
-​    }
-
-​    
-
-​    double tankValueTotal(double gasValue){
-
-​    
-
-​      return fuelTankCapacity * gasValue;
-
-​    }
-
-​    
-
-  }
-
-}
