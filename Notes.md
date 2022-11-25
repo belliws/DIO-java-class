@@ -533,6 +533,51 @@ package ...;
 
 import ...;
 
+## Collections
+
+Its an object that can gather multiples elements (variables or objects)
+
+### List
+
+[Exercises](https://drive.google.com/file/d/1tFsgADr5gYFEa4fQS0XzpK8i4ADqt95W/view)
+
+Allow duplicated itens.
+
+- ArrayList : Most used in search operations.
+- LinkedList: Most used when we need to insert and delete more data's from our list.
+
+
+
+### Set
+
+[Exercises](https://drive.google.com/file/d/1tS3Np0gVTBbfr9CyOjgevsjjNd083peY/view)
+
+Don't allow to search.
+
+- HashSet: Store the data's aleatory. Allow one null element
+- LinkedHashSet: keeps the data's order. Allow one null element
+- TreeSet: Keeps the natural order of our data's. Don't allow null elements.
+
+### Map
+
+[Exercises](https://drive.google.com/file/d/1u02CyiElDJR4wmDQ8vq3aNYe10-iSVt-/view)
+
+- HashMap: Store the data's aleatory. Allow one null element
+- LinkedHashMap: keeps the data's order. Allow one null element
+- TreeMap: Keeps the natural order of our data's. Don't allow null elements.
+
+
+
+### Exceptions
+
+[Exercises](https://github.com/cami-la/exceptions-java)
+
+- Error
+- Unchecked
+- Checked
+
+
+
 
 
 
@@ -556,5 +601,7 @@ import ...;
 - caracteristicas das associaçoes
 - relaçoes entre classes e interface
 - refatoraçao de codigo
-
+- interface comparable
+- método entry
+- Exceptions
 
