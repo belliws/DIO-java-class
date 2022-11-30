@@ -1,0 +1,70 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch FatorialDesajeitado",
+            "request": "launch",
+            "mainClass": "FatorialDesajeitado",
+            "projectName": "Desafios_d2e864b6"
+        },
+        {
+            "type": "java",
+            "name": "Launch ClassificandoMatrizes",
+            "request": "launch",
+            "mainClass": "ClassificandoMatrizes",
+            "projectName": "Desafios_d2e864b6"
+        },
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch BuscaSequencial",
+            "request": "launch",
+            "mainClass": "BuscaSequencial",
+            "projectName": "Desafios_d2e864b6"
+        },
+        {
+            "type": "java",
+            "name": "Launch EhValido",
+            "request": "launch",
+            "mainClass": "EhValido",
+            "projectName": "Desafios_d2e864b6"
+        },
+        {
+            "type": "java",
+            "name": "Launch NumerosIguais",
+            "request": "launch",
+            "mainClass": "NumerosIguais",
+            "projectName": "Desafios_d2e864b6"
+        },
+        {
+            "type": "java",
+            "name": "Launch Palindromos",
+            "request": "launch",
+            "mainClass": "Palindromos",
+            "projectName": "Desafios_d2e864b6"
+        },
+        {
+            "type": "java",
+            "name": "Launch QuadradosPerfeitos",
+            "request": "launch",
+            "mainClass": "QuadradosPerfeitos",
+            "projectName": "Desafios_d2e864b6"
+        },
+        {
+            "type": "java",
+            "name": "Launch SomaMultiplos",
+            "request": "launch",
+            "mainClass": "SomaMultiplos",
+            "projectName": "Desafios_d2e864b6"
+        }
+    ]
+}

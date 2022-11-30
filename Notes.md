@@ -576,9 +576,19 @@ Don't allow to search.
 - Unchecked
 - Checked
 
+## Http communication protocol
+
+[Content](https://drive.google.com/file/d/1IeS6XI7uc3Xy3X7kA2rgjKHClwxeP3hR/view)
 
 
 
+## Spring framework
+
+[Content](https://docs.google.com/presentation/d/1VfMegq5Je5qO4IP8chi2x4YR4ACOfBbN/edit#slide=id.p2)
+
+Ioc = inversion of control
+
+Bean = object created and managed by the container
 
 
 
@@ -591,6 +601,7 @@ Don't allow to search.
 # Notes:
 
 - instancia x estatico: atributos e métodos
+- Branchs
 - estado de um objeto
 - identidade de um objeto
 - representaçao numerica de um objeto
